@@ -1,0 +1,105 @@
+50:211  0:465  Found UEFI Acpi 2.0 RSDP at 89C0D014
+50:211  0:000  Saving ACPI tables from RSDP 89C0D014 to EFI\CLOVER\ACPI\origin ...
+50:211  0:000   89C0D014: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36 -> RSDP.aml
+50:218  0:007    (Xsdt: 89BF2188, Rsdt: 89BF20C4)
+50:218  0:000    89BF2188: 'XSDT', 'CNLH', Rev: 1, Len: 228 -> XSDT.aml
+50:224  0:005    89BF20C4: 'RSDT', 'CNLH', Rev: 1, Len: 132 -> RSDT.aml
+50:229  0:005    Tables in Xsdt: 24
+50:229  0:000    0. 89BF6000: 'FACP', 'CNLH', Rev: 5, Len: 268 -> FACP.aml
+50:234  0:005        (Dsdt: 89BC1000, Facs: 89B0C000, XDsdt: 89BC1000, XFacs: 0)
+50:234  0:000        89BC1000: 'DSDT', 'CNLH', Rev: 2, Len: 197951 -> DSDT.aml
+50:247  0:012        89B0C000: 'FACS', Ver: 2, Len: 64 -> FACS.aml
+50:253  0:005    1. 89C0A000: 'SSDT', 'CpuSsdt', Rev: 2, Len: 6940 -> SSDT-0-CpuSsdt.aml (Found hidden SSDT 9 pcs)
+50:258  0:005        * 8942B018: 'SSDT', 'Cpu0Ist', Rev: 2, Len: 1409  53 53 44 54 81 05 00 00 02 42 50 6D 52 65 66 00 Internal length = 1409 -> SSDT-x0_0-Cpu0Ist.aml
+50:263  0:005        * 8942B698: 'SSDT', 'ApIst', Rev: 2, Len: 1532  53 53 44 54 FC 05 00 00 02 29 50 6D 52 65 66 00 Internal length = 1532 -> SSDT-x0_1-ApIst.aml
+50:269  0:005        * 89428018: 'SSDT', 'Cpu0Cst', Rev: 2, Len: 1024  53 53 44 54 00 04 00 00 02 DF 50 6D 52 65 66 00 Internal length = 1024 -> SSDT-x0_2-Cpu0Cst.aml
+50:274  0:005        * 8942AA98: 'SSDT', 'ApCst', Rev: 2, Len: 778  53 53 44 54 0A 03 00 00 02 EF 50 6D 52 65 66 00 Internal length = 778 -> SSDT-x0_3-ApCst.aml
+50:279  0:005        * 89494C18: 'SSDT', 'Cpu0Hwp', Rev: 2, Len: 283  53 53 44 54 1B 01 00 00 02 67 50 6D 52 65 66 00 Internal length = 283 -> SSDT-x0_4-Cpu0Hwp.aml
+50:285  0:005        * 89494598: 'SSDT', 'ApHwp', Rev: 2, Len: 791  53 53 44 54 17 03 00 00 02 E9 50 6D 52 65 66 00 Internal length = 791 -> SSDT-x0_5-ApHwp.aml
+50:290  0:005        * 8942A018: 'SSDT', 'HwpLvt', Rev: 2, Len: 1828  53 53 44 54 24 07 00 00 02 D0 50 6D 52 65 66 00 Internal length = 1828 -> SSDT-x0_6-HwpLvt.aml
+50:295  0:005        * 89494998: 'SSDT', 'Cpu0Psd', Rev: 2, Len: 244  53 53 44 54 F4 00 00 00 02 3D 50 6D 52 65 66 00 Internal length = 244 -> SSDT-x0_7-Cpu0Psd.aml
+50:301  0:005        * 89429018: 'SSDT', 'ApPsd', Rev: 2, Len: 2736  53 53 44 54 B0 0A 00 00 02 B1 50 6D 52 65 66 00 Internal length = 2736 -> SSDT-x0_8-ApPsd.aml
+50:307  0:005  
+50:307  0:000    2. 89C06000: 'SSDT', 'SaSsdt', Rev: 2, Len: 12722 -> SSDT-1-SaSsdt.aml
+50:312  0:005    3. 89C04000: 'SSDT', 'PegSsdt', Rev: 2, Len: 6058 -> SSDT-2-PegSsdt.aml
+50:318  0:005    4. 89C02000: 'SSDT', 'Tpm2Tabl', Rev: 2, Len: 1135 -> SSDT-3-Tpm2Tabl.aml
+50:323  0:005    5. 89C01000: 'SSDT', 'MeSsdt', Rev: 2, Len: 70 -> SSDT-4-MeSsdt.aml
+50:328  0:005    6. 89BFB000: 'SSDT', 'PtidDevc', Rev: 2, Len: 5738 -> SSDT-5-PtidDevc.aml
+50:333  0:005    7. 89BF8000: 'SSDT', 'PerfTune', Rev: 2, Len: 1092 -> SSDT-6-PerfTune.aml
+50:339  0:005    8. 89BBC000: 'SSDT', 'NvdTable', Rev: 1, Len: 13699 -> SSDT-7-NvdTable.aml
+50:345  0:005    9. 89C0C000: 'UEFI', 'CNLH', Rev: 1, Len: 566 -> UEFI.aml
+50:350  0:005    10. 89C03000: 'UEFI', 'CNLH', Rev: 1, Len: 66 -> UEFI.aml
+50:355  0:005    11. 89C00000: 'TPM2', 'CNLH', Rev: 3, Len: 52 -> TPM2.aml
+50:360  0:005    12. 89BFF000: 'MSDM', 'CNLH', Rev: 3, Len: 85 -> MSDM.aml
+50:366  0:005    13. 89BFE000: 'LPIT', 'CNLH', Rev: 1, Len: 92 -> LPIT.aml
+50:371  0:005    14. 89BFD000: 'WSMT', 'CNLH', Rev: 1, Len: 40 -> WSMT.aml
+50:376  0:005    15. 89BFA000: 'DBGP', 'CNLH', Rev: 1, Len: 52 -> DBGP.aml
+50:382  0:005    16. 89BF9000: 'DBG2', 'CNLH', Rev: 0, Len: 97 -> DBG2.aml
+50:387  0:005    17. 89BF7000: 'ASF!', 'CNLH', Rev: 32, Len: 165 -> ASF!.aml
+50:392  0:005    18. 89BF5000: 'HPET', 'CNLH', Rev: 1, Len: 56 -> HPET.aml
+50:397  0:005    19. 89BF4000: 'APIC', 'CNLH', Rev: 3, Len: 300 -> APIC.aml
+50:402  0:004    20. 89BF3000: 'MCFG', 'CNLH', Rev: 1, Len: 60 -> MCFG.aml
+50:408  0:005    21. 89BC0000: 'DMAR', 'CNLH', Rev: 1, Len: 168 -> DMAR.aml
+50:413  0:005    22. 89BBB000: 'FPDT', 'CNLH', Rev: 1, Len: 68 -> FPDT.aml
+50:418  0:005    23. 89BBA000: 'BGRT', 'CNLH', Rev: 1, Len: 56 -> BGRT.aml
+50:423  0:005    Tables in Rsdt: 24
+50:423  0:000    0. 89BF6000: 'FACP', 'CNLH', Rev: 5, Len: 268
+50:423  0:000        (Dsdt: 89BC1000, Facs: 89B0C000, XDsdt: 89BC1000, XFacs: 0)
+50:423  0:000        89BC1000: 'DSDT', 'CNLH', Rev: 2, Len: 197951
+50:428  0:004        89B0C000: 'FACS', Ver: 2, Len: 64
+50:428  0:000    1. 89C0A000: 'SSDT', 'CpuSsdt', Rev: 2, Len: 6940
+50:428  0:000    2. 89C06000: 'SSDT', 'SaSsdt', Rev: 2, Len: 12722
+50:428  0:000    3. 89C04000: 'SSDT', 'PegSsdt', Rev: 2, Len: 6058
+50:428  0:000    4. 89C02000: 'SSDT', 'Tpm2Tabl', Rev: 2, Len: 1135
+50:428  0:000    5. 89C01000: 'SSDT', 'MeSsdt', Rev: 2, Len: 70
+50:428  0:000    6. 89BFB000: 'SSDT', 'PtidDevc', Rev: 2, Len: 5738
+50:428  0:000    7. 89BF8000: 'SSDT', 'PerfTune', Rev: 2, Len: 1092
+50:428  0:000    8. 89BBC000: 'SSDT', 'NvdTable', Rev: 1, Len: 13699
+50:428  0:000    9. 89C0C000: 'UEFI', 'CNLH', Rev: 1, Len: 566
+50:428  0:000    10. 89C03000: 'UEFI', 'CNLH', Rev: 1, Len: 66
+50:428  0:000    11. 89C00000: 'TPM2', 'CNLH', Rev: 3, Len: 52
+50:428  0:000    12. 89BFF000: 'MSDM', 'CNLH', Rev: 3, Len: 85
+50:428  0:000    13. 89BFE000: 'LPIT', 'CNLH', Rev: 1, Len: 92
+50:428  0:000    14. 89BFD000: 'WSMT', 'CNLH', Rev: 1, Len: 40
+50:428  0:000    15. 89BFA000: 'DBGP', 'CNLH', Rev: 1, Len: 52
+50:428  0:000    16. 89BF9000: 'DBG2', 'CNLH', Rev: 0, Len: 97
+50:428  0:000    17. 89BF7000: 'ASF!', 'CNLH', Rev: 32, Len: 165
+50:428  0:000    18. 89BF5000: 'HPET', 'CNLH', Rev: 1, Len: 56
+50:428  0:000    19. 89BF4000: 'APIC', 'CNLH', Rev: 3, Len: 300
+50:428  0:000    20. 89BF3000: 'MCFG', 'CNLH', Rev: 1, Len: 60
+50:428  0:000    21. 89BC0000: 'DMAR', 'CNLH', Rev: 1, Len: 168
+50:428  0:000    22. 89BBB000: 'FPDT', 'CNLH', Rev: 1, Len: 68
+50:428  0:000    23. 89BBA000: 'BGRT', 'CNLH', Rev: 1, Len: 56
+50:428  0:000  Found UEFI Acpi 1.0 RSDP at 89C0D000
+50:428  0:000  Printing ACPI tables from RSDP 89C0D000 ...
+50:428  0:000   89C0D000: 'RSD PTR ', Rev: 0 (Acpi 1.0), Len: 20
+50:428  0:000    (Rsdt: 89BF2000)
+50:428  0:000    89BF2000: 'RSDT', 'CNLH', Rev: 1, Len: 132
+50:428  0:000    Tables in Rsdt: 24
+50:428  0:000    0. 89BF6000: 'FACP', 'CNLH', Rev: 5, Len: 268
+50:428  0:000        (Dsdt: 89BC1000, Facs: 89B0C000, XDsdt: 89BC1000, XFacs: 0)
+50:428  0:000        89BC1000: 'DSDT', 'CNLH', Rev: 2, Len: 197951
+50:433  0:005        89B0C000: 'FACS', Ver: 2, Len: 64
+50:433  0:000    1. 89C0A000: 'SSDT', 'CpuSsdt', Rev: 2, Len: 6940
+50:433  0:000    2. 89C06000: 'SSDT', 'SaSsdt', Rev: 2, Len: 12722
+50:433  0:000    3. 89C04000: 'SSDT', 'PegSsdt', Rev: 2, Len: 6058
+50:433  0:000    4. 89C02000: 'SSDT', 'Tpm2Tabl', Rev: 2, Len: 1135
+50:433  0:000    5. 89C01000: 'SSDT', 'MeSsdt', Rev: 2, Len: 70
+50:433  0:000    6. 89BFB000: 'SSDT', 'PtidDevc', Rev: 2, Len: 5738
+50:433  0:000    7. 89BF8000: 'SSDT', 'PerfTune', Rev: 2, Len: 1092
+50:433  0:000    8. 89BBC000: 'SSDT', 'NvdTable', Rev: 1, Len: 13699
+50:433  0:000    9. 89C0C000: 'UEFI', 'CNLH', Rev: 1, Len: 566
+50:433  0:000    10. 89C03000: 'UEFI', 'CNLH', Rev: 1, Len: 66
+50:433  0:000    11. 89C00000: 'TPM2', 'CNLH', Rev: 3, Len: 52
+50:433  0:000    12. 89BFF000: 'MSDM', 'CNLH', Rev: 3, Len: 85
+50:433  0:000    13. 89BFE000: 'LPIT', 'CNLH', Rev: 1, Len: 92
+50:433  0:000    14. 89BFD000: 'WSMT', 'CNLH', Rev: 1, Len: 40
+50:433  0:000    15. 89BFA000: 'DBGP', 'CNLH', Rev: 1, Len: 52
+50:433  0:000    16. 89BF9000: 'DBG2', 'CNLH', Rev: 0, Len: 97
+50:433  0:000    17. 89BF7000: 'ASF!', 'CNLH', Rev: 32, Len: 165
+50:433  0:000    18. 89BF5000: 'HPET', 'CNLH', Rev: 1, Len: 56
+50:433  0:000    19. 89BF4000: 'APIC', 'CNLH', Rev: 3, Len: 300
+50:433  0:000    20. 89BF3000: 'MCFG', 'CNLH', Rev: 1, Len: 60
+50:433  0:000    21. 89BC0000: 'DMAR', 'CNLH', Rev: 1, Len: 168
+50:433  0:000    22. 89BBB000: 'FPDT', 'CNLH', Rev: 1, Len: 68
+50:433  0:000    23. 89BBA000: 'BGRT', 'CNLH', Rev: 1, Len: 56
