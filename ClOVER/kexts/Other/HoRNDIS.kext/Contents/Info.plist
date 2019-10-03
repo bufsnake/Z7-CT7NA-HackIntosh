@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>BuildMachineOSBuild</key>
-	<string>15G31</string>
+	<string>16G1212</string>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>English</string>
 	<key>CFBundleExecutable</key>
@@ -18,8 +18,6 @@
 	<string>HoRNDIS</string>
 	<key>CFBundlePackageType</key>
 	<string>KEXT</string>
-	<key>CFBundleShortVersionString</key>
-	<string>8.0</string>
 	<key>CFBundleSignature</key>
 	<string>????</string>
 	<key>CFBundleSupportedPlatforms</key>
@@ -27,7 +25,7 @@
 		<string>MacOSX</string>
 	</array>
 	<key>CFBundleVersion</key>
-	<string>6</string>
+	<string>9.2</string>
 	<key>DTCompiler</key>
 	<string>com.apple.compilers.llvm.clang.1_0</string>
 	<key>DTPlatformBuild</key>
@@ -35,70 +33,70 @@
 	<key>DTPlatformVersion</key>
 	<string>GM</string>
 	<key>DTSDKBuild</key>
-	<string>10K549</string>
+	<string>15E60</string>
 	<key>DTSDKName</key>
-	<string>macosx10.6</string>
+	<string>macosx10.11</string>
 	<key>DTXcode</key>
 	<string>0731</string>
 	<key>DTXcodeBuild</key>
 	<string>7D1014</string>
 	<key>IOKitPersonalities</key>
 	<dict>
-		<key>HoRNDISDevice</key>
+		<key>RNDISControlLinuxGadget</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
 			<string>com.joshuawise.kexts.HoRNDIS</string>
 			<key>IOClass</key>
-			<string>HoRNDISUSBDevice</string>
+			<string>HoRNDIS</string>
 			<key>IOProviderClass</key>
-			<string>IOUSBDevice</string>
+			<string>IOUSBHostInterface</string>
+			<key>bInterfaceClass</key>
+			<integer>2</integer>
+			<key>bInterfaceProtocol</key>
+			<integer>255</integer>
+			<key>bInterfaceSubClass</key>
+			<integer>2</integer>
+		</dict>
+		<key>RNDISControlMiscDeviceRoE</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.joshuawise.kexts.HoRNDIS</string>
+			<key>IOClass</key>
+			<string>HoRNDIS</string>
+			<key>IOProviderClass</key>
+			<string>IOUSBHostInterface</string>
+			<key>bInterfaceClass</key>
+			<integer>239</integer>
+			<key>bInterfaceProtocol</key>
+			<integer>1</integer>
+			<key>bInterfaceSubClass</key>
+			<integer>4</integer>
+		</dict>
+		<key>RNDISControlStockAndroid</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.joshuawise.kexts.HoRNDIS</string>
+			<key>IOClass</key>
+			<string>HoRNDIS</string>
+			<key>IOProviderClass</key>
+			<string>IOUSBHostInterface</string>
+			<key>bInterfaceClass</key>
+			<integer>224</integer>
+			<key>bInterfaceProtocol</key>
+			<integer>3</integer>
+			<key>bInterfaceSubClass</key>
+			<integer>1</integer>
+		</dict>
+		<key>WirelessControllerDevice</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.joshuawise.kexts.HoRNDIS</string>
+			<key>IOClass</key>
+			<string>HoRNDIS</string>
+			<key>IOProviderClass</key>
+			<string>IOUSBHostDevice</string>
 			<key>bDeviceClass</key>
 			<integer>224</integer>
-			<key>bDeviceProtocol</key>
-			<integer>0</integer>
-			<key>bDeviceSubClass</key>
-			<integer>0</integer>
-		</dict>
-		<key>HoRNDISDevice2</key>
-		<dict>
-			<key>CFBundleIdentifier</key>
-			<string>com.joshuawise.kexts.HoRNDIS</string>
-			<key>IOClass</key>
-			<string>HoRNDISUSBDevice</string>
-			<key>IOProviderClass</key>
-			<string>IOUSBDevice</string>
-			<key>bDeviceClass</key>
-			<integer>239</integer>
-			<key>bDeviceProtocol</key>
-			<integer>1</integer>
-			<key>bDeviceSubClass</key>
-			<integer>2</integer>
-		</dict>
-		<key>HoRNDISDeviceComposite</key>
-		<dict>
-			<key>CFBundleIdentifier</key>
-			<string>com.joshuawise.kexts.HoRNDIS</string>
-			<key>IOClass</key>
-			<string>HoRNDISUSBDevice</string>
-			<key>IOProviderClass</key>
-			<string>IOUSBDevice</string>
-			<key>bDeviceClass</key>
-			<integer>0</integer>
-			<key>bDeviceProtocol</key>
-			<integer>0</integer>
-			<key>bDeviceSubClass</key>
-			<integer>0</integer>
-		</dict>
-		<key>MicroDriverDevice3</key>
-		<dict>
-			<key>CFBundleIdentifier</key>
-			<string>com.joshuawise.kexts.HoRNDIS</string>
-			<key>IOClass</key>
-			<string>HoRNDISUSBDevice</string>
-			<key>IOProviderClass</key>
-			<string>IOUSBDevice</string>
-			<key>bDeviceClass</key>
-			<integer>2</integer>
 			<key>bDeviceProtocol</key>
 			<integer>0</integer>
 			<key>bDeviceSubClass</key>
@@ -108,17 +106,19 @@
 	<key>OSBundleLibraries</key>
 	<dict>
 		<key>com.apple.iokit.IONetworkingFamily</key>
-		<string>1.1</string>
-		<key>com.apple.iokit.IOUSBFamily</key>
-		<string>1.8</string>
+		<string>3.2</string>
+		<key>com.apple.iokit.IOUSBHostFamily</key>
+		<string>1.0.1</string>
 		<key>com.apple.kpi.bsd</key>
-		<string>8.0</string>
+		<string>15.0</string>
 		<key>com.apple.kpi.iokit</key>
-		<string>8.0</string>
+		<string>15.0</string>
 		<key>com.apple.kpi.libkern</key>
-		<string>8.0</string>
+		<string>15.0</string>
 		<key>com.apple.kpi.mach</key>
-		<string>8.0</string>
+		<string>15.0</string>
+		<key>com.apple.kpi.unsupported</key>
+		<string>15.0</string>
 	</dict>
 </dict>
 </plist>
