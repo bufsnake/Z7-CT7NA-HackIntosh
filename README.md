@@ -33,6 +33,7 @@
 >> 安装DW1560网卡后
 
 >> 如何添加驱动，搜索 黑苹果DW1560 安装
+>> 删除USB网卡图标：进入/Library/Application Support/WLAN/ 删除 StatusBarApp.app这个文件即可
 
 ![Z7-CT7NA](/image/8.png)
 
