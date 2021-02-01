@@ -8,6 +8,10 @@
 
 ### 简介
 
+1. 支持minidp口
+
+   ![image-20210201121258971](.images/README.assets/image-20210201121258971.png)
+
 1. 触控板
 
    ![Z7-CT7NA](/image/2.png)
